@@ -26,8 +26,8 @@
 
         <mat-radio-group required formControlName="role" class="is-left">
           <mat-radio-button value="pharmacist">Pharmacist</mat-radio-button><br>
-          <mat-radio-button value="assistantPharmacist">Assistant Pharmacist</mat-radio-button><br>
-          <mat-radio-button value="cashier">Cashier</mat-radio-button><br>
+          <!-- <mat-radio-button value="assistantPharmacist">Assistant Pharmacist</mat-radio-button><br>
+          <mat-radio-button value="cashier">Cashier</mat-radio-button><br> -->
         </mat-radio-group>
         <span class="error-msg" *ngIf="(registerFormControl.role.touched ) && registerFormControl.role.errors?.required">
           *Drugs Available number is required
