@@ -64,8 +64,9 @@ router.post("",(req,res,next)=>{
       port: 587,
       secure: false, // true for 465, false for other ports
       auth: {
-        user: "pharmacare.contactus@gmail.com",
-        pass: "lalana1011294"
+        // changing username and password
+        user: "nu_pharam@outlook.com",
+        pass: "asd123"
       }
     });
 
