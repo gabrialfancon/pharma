@@ -153,9 +153,7 @@ export class AShoppingCartItemsComponent implements OnInit {
     this.email2 = email;
     this.name = name;
     console.log(this.email2, this.name);
-    //this.authDoctorUserService.getCurrentDoctor();
-    //setInterval(() => this.authDoctorUserService.getDoctors("lalanachamika123@gmail.com"), 5000);
-    //this.authDoctorUserService.getDoctors("lalanachamika123@gmail.com");
+ 
   }
 
 
